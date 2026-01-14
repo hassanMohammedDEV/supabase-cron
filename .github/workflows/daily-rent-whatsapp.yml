@@ -20,4 +20,7 @@ jobs:
           curl -X POST \
             https://rgosaxqtmmmwligudmro.supabase.co/functions/v1/send-rent-expiry-whatsapp \
             -H "Content-Type: application/json" \
-            -d '{}'
+            -d '{
+              "client_id": 1,
+              "days_before": 10
+            }'
