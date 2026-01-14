@@ -3,8 +3,8 @@ name: Daily Rent WhatsApp Notification
 on:
   workflow_dispatch:
   schedule:
-    # يوميًا الساعة 12 ظهرًا بتوقيت اليمن (UTC+3)
-    - cron: "0 9 * * *"
+    # يوميًا الساعة 9 صباحاً بتوقيت اليمن (UTC+3)
+    - cron: "0 6 * * *"
 
 jobs:
   notify:
