@@ -19,6 +19,5 @@ jobs:
         run: |
           curl -X POST \
             https://rgosaxqtmmmwligudmro.supabase.co/functions/v1/send-rent-expiry-whatsapp \
-            -H "Authorization: Bearer ${{ secrets.SUPABASE_ANON_KEY }}" \
             -H "Content-Type: application/json" \
             -d '{}'
